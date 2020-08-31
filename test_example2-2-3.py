@@ -24,3 +24,11 @@ def test_mul(calc):
 
 def test_div(calc):
     assert calc.div(5, 2) == 2
+
+
+def test_square(calc):
+    assert calc.square(5) == 25
+
+
+def test_cube(calc):
+    assert calc.cube(5) == 125

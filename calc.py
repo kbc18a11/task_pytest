@@ -10,3 +10,9 @@ class Calculator(object):
 
     def div(self, a, b):
         return a // b
+
+    def square(self, a):
+        return a * a
+
+    def cube(self, a):
+        return a * a * a
